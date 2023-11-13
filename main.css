@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", "Verdana", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.layer1 {
+  padding-top: 63px;
+  width: 100%;
+  display: flex;
+  height: 550px;
+  /* background-color: aliceblue; */
+  flex-direction: row;
+}
+.ads {
+  width: 359px;
+  height: 100%;
+  background-image: url("./images/aplaa.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.layer1banner {
+  height: 100%;
+  flex-grow: 1;
+  background-image: url("images/bannerMumbai-PhotoRoom.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 2px;
+}
+.logolead {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  margin-left: -90px;
+  flex-grow: 1;
+}
+.logolead img {
+  width: 85%;
+}
+.ld1 {
+  width: 100%;
+  height: 40px;
+  background-color: #00285e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ld2 {
+  width: 100%;
+  height: 20px;
+  background-color: #6eade0;
+}
+.icons {
+  margin-left: 200px;
+}
+.slogo {
+  margin-top: -30px;
+  margin-left: 120px;
+  width: 60px;
+  position: absolute;
+  z-index: 1;
+}
+.lgndiv {
+  width: 10%;
+  height: 100%;
+  background-color: #dca369;
+  margin-right: 89px;
+}
+
+.layer3 {
+  width: 100%;
+  height: 550px;
+  background: #011e5d;
+  display: flex;
+  flex-direction: row;
+}
+.ld3 {
+  width: 359px;
+  height: 100%;
+  background-color: white;
+}
+.ld4 {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.post {
+  width: 100%;
+  height: auto;
+  font-family: "Arial", sans-serif;
+  /* background: #395ba5; */
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.6em;
+  background: linear-gradient(rgba(12, 49, 128, 0.89),rgba(56, 91, 166, 0.877)), url("images/bannerMumbai.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.post h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post p {
+  margin: 0;
+  padding: 0 35px 0 0;
+}
+#slider {
+  width: 80%;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 0;
+  border-radius: 5px;
+}
+#slider img {
+  width: 240px;
+  height: 150px;
+}
+.post .img1,
+.img2,
+.img3 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.post .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.img1 {
+  background-image: url("./images/s1.webp") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#s1 {
+  background-image: url("./images/s1.webp") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ .img2 {
+  background-image: url("./images/s2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ #s2 {
+  background-image: url("./images/s2.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ .img3 {
+  background-image: url("./images/s3.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ #s3 {
+  background-image: url("./images/s3.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.post .slideText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 20px 20px 20px;
+  background: 7f7f7f;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-height: 32%;
+}
+#prev,
+#next {
+  cursor: pointer;
+  z-index: 100;
+  background: #66666675;
+  height: 100px;
+  width: 60px;
+  display: inline-block;
+  position: relative;
+  top: 127px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  filter: alpha(opacity=90);
+}
+#next {
+  float: right;
+  right: -2px;
+}
+#prev {
+  float: left;
+  left: 0;
+}
+.post .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  position: relative;
+  top: 20%;
+  right: -40%;
+}
+.post .arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  position: relative;
+  top: 20%;
+  left: 30%;
+}
+.post-container {
+  display: flex;
+  position: relative;
+}
+.thumbs {
+  width: 20%;
+  min-height: 100%;
+  margin-left: -10px;
+  padding-top: 40px;
+  display: block;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.thumbs .thumb {
+  width: 100%;
+  height: 140px;
+  max-width: 0 auto ;
+  margin-top: 10px;
+  background: #666;
+  position: relative;
+}
+
+.thumbs .bar {
+  height: 100%;
+  width: 10px;
+  background: #6eade0af;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: none; /* Initially, no animation */
+  z-index: 1;
+  display: none;
+}
+
+.thumbs .active .bar {
+  animation: loadingAnimation 5s infinite !important; /* Start animation only when the thumb is active */
+  display: block;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+/* .ld5 {
+    height: 100%;
+    background: white;
+    flex-grow: 1;
+} */
+
+.ulayer4 {
+   /* background: #011e5d; */
+        background: white;
+
+    width: 100%;
+        height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ulayer4 img {
+  width: 100%;
+}
+.layer4 {
+    width: 100vw;
+    height: 90vh;
+    background-image: url("images/bannerMumbai-PhotoRoom.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 0;
+  padding: 6px;
+}
+.tableDiv {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+.tableDiv table {
+    border: #011e5d solid 2px;
+  width: 100%;
+}
+.tableDiv table .img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  /* border-radius: 50%;
+  background-color: #493c97; */
+}
+
+.tableDiv table .img img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+}
+.tableDiv table .ttd {
+  display: flex;
+  align-items: center;
+}
+.pwe {
+  background-color:white;
+  height: 50px;
+}
+.label {
+  background: #011e5d83;
+}
+
+.last2 {
+    width: 100%;
+    height: 50px;
+    background: #6eade0;
+}
+
+.layer5 {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ld51 {
+    width: 50%;
+    height: auto;
+}
+.ld51 img {
+    width: 100%;
+}
+
+.ld52 {
+    width: 50%;
+    height: 80%;
+    /* background: #011e5d; */
+}
+
+.mlabel {
+    /* background: #dca3699c; */
+    background: #6CADDF;
+}
+
+.layer6 {
+    background: #011e5d;
+    width: 100%;
+    height: 3vh;
+}
+
+.pannel {
+  display: none;
+  padding: 5px;
+  padding-top: 0;
+  font-size: 0.7em;
+  transition: 0.8s ease;
+}
+.ld52 {
+  height: auto;
+  margin-left: 6%;
+}
+
+.sec {
+  height : 12vh;
+  width:70%;
+  /* background: #6eade0; */
+  transition: 0.4s ease;
+}
+.sec h1 {
+  color: #395ba5;
+}
+.sec:hover {
+  height : 17vh;
+}

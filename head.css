@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", "Verdana", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hd1 {
+  background-color: #011e5d;
+  width: 100%;
+  height: 17px;
+}
+
+.hd2 {
+  height: 45px;
+  width: 100%;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  /* font-size: 13px; */
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+nav ul {
+  margin-left: 1%;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 5%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #395ba5;
+}
+
+.hd2n {
+  width: 55%;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  background-color: #b1d1f2;
+  overflow: hidden;
+}
+
+.hdn1 {
+  width: 100%;
+  height: 14.07px;
+  background-color: #6eade0;
+}
+
+.hdn2 {
+  display: grid;
+  place-items: center;
+  flex-grow: 1;
+}
+
+.hd2menu {
+  width: 15%;
+  background-image: url("./images/bannerMumbai-PhotoRoom.jpg");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.hd2menu img {
+  width: 40%;
+}
+
+header {
+  box-shadow: 0 8px 6px -8px #0000004b;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .hd2n {
+    display: none;
+  }
+
+  .hd2menu {
+    display: none;
+  }
+}
