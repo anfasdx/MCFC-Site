@@ -79,10 +79,12 @@ nav ul li a:hover {
 .hdn2 div{
   margin-left: 3%;
   font-style: italic;
+  color: #0000007e;
 }
 .hdn2 span{
   font-style: normal;
   background-color: #b1d1f2;
+  color: #000000;
 }
 
 .hd2menu {
