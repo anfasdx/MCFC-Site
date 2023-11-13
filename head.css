@@ -72,9 +72,17 @@ nav ul li a:hover {
 }
 
 .hdn2 {
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
   flex-grow: 1;
+}
+.hdn2 div{
+  margin-left: 3%;
+  font-style: italic;
+}
+.hdn2 span{
+  font-style: normal;
+  background-color: #b1d1f2;
 }
 
 .hd2menu {
