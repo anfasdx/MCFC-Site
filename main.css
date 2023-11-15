@@ -314,10 +314,12 @@ body {
     background-repeat: no-repeat; */
    background: linear-gradient(rgba(12, 49, 128, 0.89),rgba(56, 91, 166, 0.877)), url("images/LOgo.svg");
   background-size: contain;
+    background-size: 20% 20%;
 }
 table {
   border-collapse: collapse;
   width: 100%;
+  color:white;
 }
 
 table, th, td {
