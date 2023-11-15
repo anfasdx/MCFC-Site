@@ -308,10 +308,12 @@ body {
 .layer4 {
     width: 100vw;
     height: 90vh;
-    background-image: url("images/bannerMumbai-PhotoRoom.jpg");
+/*     background-image: url("images/bannerMumbai-PhotoRoom.jpg");
     background-size: 100% 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+   background: linear-gradient(rgba(12, 49, 128, 0.89),rgba(56, 91, 166, 0.877)), url("images/LOgo.svg");
+  background-size: contain;
 }
 table {
   border-collapse: collapse;
