@@ -314,7 +314,7 @@ body {
     background-repeat: no-repeat; */
    background: linear-gradient(rgba(12, 49, 128, 0.89),rgba(56, 91, 166, 0.877)), url("images/LOgo.svg");
   background-size: contain;
-    background-size: 50% 50%;
+    background-size: 70% 70%;
 }
 table {
   border-collapse: collapse;
@@ -355,6 +355,7 @@ table, th, td {
 .pwe {
   background-color:white;
   height: 50px;
+  color: black !important;
 }
 .label {
   background: #011e5d83;
