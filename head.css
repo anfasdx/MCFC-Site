@@ -119,4 +119,7 @@ header {
   .hd2menu {
     display: none;
   }
+    nav {
+    font-size: 2vw;
+  }
 }
